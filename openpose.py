@@ -4,6 +4,7 @@ import argparse
 import math
 
 # Methods
+#
 
 def GetUnitLength(x,y,height):
     res = math.sqrt((x[0]-y[0])*(x[0]-y[0])+(x[1]-y[1])*(x[1]-y[1]))
