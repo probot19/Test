@@ -93,6 +93,7 @@ while cv.waitKey(1) < 0:
         partTo = pair[1]
         assert(partFrom in BODY_PARTS)
         assert(partTo in BODY_PARTS)
+        b=0
 
         idFrom = BODY_PARTS[partFrom]
         idTo = BODY_PARTS[partTo]
